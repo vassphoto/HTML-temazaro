@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML, CSS témazáró teszt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <!-- Fejléc -->
+        <div class="header">
+            <h1>Kedvenc videóim és képeim</h1>
+        </div>
+
+        <!-- Menüsor -->
+        <div class="navbar">
+            <a href="index.html">Kezdőoldal</a>
+            <a href="#">Képek</a>
+            <a href="#">Videók</a>
+            <a href="account.html">Account</a>
+        </div>
+
+        <!-- Flexbox konténer -->
+        <div class="row">
+
+            <!-- Tartalom -->
+            <div class="main">
+
+                <h2>Videók</h2>
+                <!-- Flexbox média konténer -->
+                <div class="mediakontener">
+                <iframe src="https://www.youtube.com/embed/7JB4T4tXoGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/QijS05Tlu9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/6n7cL1jokAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>    
+
+                <h2>Képek</h2>
+                <!-- Flexbox média konténer -->
+                <div class="mediakontener">
+                <img src="img/macska.jpg">
+                <img src="img/audi.jpg">
+                <img src="img/bmw.jpg">     
+                </div>  
+            </div>
+
+            <!-- Jobb oldai sáv -->
+            <div class="side">
+                <h2>Archív tartalom</h2>
+                <ul>
+                    <li>The Chainmokers Style</li>
+                    <li>Vocal House<span>&#183;</span>Chill House</li>
+                    <li>Tocame vs Snake</li>
+                    <li>Kedvenc Cicám</li>
+                    <li>Audi AB</li>
+                    <li>M5 BMW</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Lábléc -->
+        <div class="footer">
+            Footer
+        </div>
+    </body>
+</html> 

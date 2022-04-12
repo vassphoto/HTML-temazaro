@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML, CSS témazáró teszt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <!-- Fejléc -->
+        <div class="header">
+            <h1>Kedvenc videóim és képeim</h1>
+        </div>
+
+        <!-- Menüsor -->
+        <div class="navbar">
+            <a href="index.html">Kezdőoldal</a>
+            <a href="#">Képek</a>
+            <a href="#">Videók</a>
+            <a href="account.html">Account</a>
+        </div>
+
+        <!-- Flexbox konténer -->
+        <div class="row">
+
+            <!-- Tartalom -->
+            <div class="main">
+
+                <h2>Belépés vagy regisztráció</h2>
+
+                <!-- Flexbox belépés-regisztráció konténer -->
+                <div class="belepes-regisztracio">
+                    <!-- Belépés konténer -->
+                    <div class="belepes">
+                        <h2>Belépés</h2>
+
+                        <form>
+                        <label for="email">E-mail cím</label><br>
+                        <input type="email" id="email" name="email" placeholder="E-mail címed"><br>
+                        <label for="jelszo">Jelszó</label><br>
+
+                        <input type="password" id="jelszo" name="jelszo" placeholder="Jelszavad"><br>
+                        <input type="checkbox" id="emlekezz" name="emlekezz" placeholder="emlekezz">
+                        <label for="emlekezz">Emlékezz rám</label><br>
+
+                        <div class="bejelentkezesgombok">
+                        <button type="submit">Belépés</button>
+                        <button type="reset">Mégsem</button>
+                         </div>
+
+                        </form>
+                    </div>    
+
+                    <!-- Regisztráció konténer -->
+                    <div class="regisztracio">
+                        <h2>Regisztráció</h2>
+
+                        <form>
+                        <label for="email">E-mail cím</label><br>
+                        <input type="email" id="email" name="email" placeholder="E-mail címed"><br>
+
+                        <input type="checkbox" id="gdpr" name="gdpr" placeholder="gdpr">
+                        <label for="gdpr">Adatvédelmi nyilatkoztatot elfogadom</label><br>
+
+                        <div class="regisztraciogomb">
+                        <button type="submit">Küldés</button>
+                         </div>
+                         
+                        </form>
+                    </div>  
+                </div>  
+            </div>
+
+            <!-- Jobb oldai sáv -->
+            <div class="side">
+                <h2>Archív tartalom</h2>
+                <ul>
+                    <li>The Chainmokers Style</li>
+                    <li>Vocal House<span>&#183;</span>Chill House</li>
+                    <li>Tocame vs Snake</li>
+                    <li>Kedvenc Cicám</li>
+                    <li>Audi AB</li>
+                    <li>M5 BMW</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Lábléc -->
+        <div class="footer">
+            Footer
+        </div>
+    </body>
+</html> 
